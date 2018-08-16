@@ -10,7 +10,7 @@
 <script>
 export default {
   name: 'Profile',
-  data () {
+  data: function() {
     return {
       name: 'おおたまを学ぶ',
       text: 'おおたまを学ぶ'

@@ -13,7 +13,7 @@
 <script>
 export default {
   name: 'TabMenu',
-  data () {
+  data: function() {
     return {
       items: [
         { title: 'top', path: '/' },
