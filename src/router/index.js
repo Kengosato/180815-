@@ -6,6 +6,7 @@ import Profile from '@/components/Profile' //①import
 
 
 Vue.use(Router)
+Vue.config.devtools = true
 
 export default new Router({
   routes: [
@@ -16,21 +17,15 @@ export default new Router({
     },
 
     {
-
       path: '/outputs',
       name: 'Output',
       component: Output
-
     },
     {
-
       path: '/profiles',
       name: 'profile',
       component: Profile
-
     },
-
-
   ],
 
 })
