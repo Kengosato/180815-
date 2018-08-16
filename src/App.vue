@@ -1,15 +1,21 @@
 <template>
   <div id="app">
+    <tab-menu></tab-menu>
     <img src="./assets/logo.png">
-    <h1>Todo Management.</h1>
+    <h1>「おおたまを学ぶ」のデモサイトを作る</h1>
     <hr/>
     <router-view/>
   </div>
 </template>
 
 <script>
+import TabMenu from '@/components/TabMenu'
+
 export default {
-  name: 'app'
+  name: 'app',
+  components:{
+    TabMenu
+  }
 }
 </script>
 

@@ -25,7 +25,7 @@ export default {
   name: 'hello',
   data: function() {
     return {
-      msg: 'Vue.js勉強180815',
+      msg: 'Vue.js勉強180815-',
       todos :[
         {text : 'vue-router', done: false},
         {text : 'vuex', done: false},
